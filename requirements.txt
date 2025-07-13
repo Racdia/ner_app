@@ -1,9 +1,8 @@
 streamlit
-streamlit
-spacy==3.7.2
+spacy==3.6.1
 stanza
 transformers
 torch
 pandas
 matplotlib
-https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.7.0/fr_core_news_md-3.7.0-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.6.0/fr_core_news_md-3.6.0-py3-none-any.whl
