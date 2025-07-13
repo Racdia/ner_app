@@ -7,7 +7,7 @@ import pandas as pd
 import html
 import matplotlib.pyplot as plt
 import spacy.cli
-spacy.cli.download("fr_core_news_md")
+#spacy.cli.download("fr_core_news_md")
 
 @st.cache_resource
 def load_spacy_model():
