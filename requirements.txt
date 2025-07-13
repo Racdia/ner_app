@@ -5,4 +5,7 @@ transformers
 torch
 pandas
 matplotlib
-https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.7.0/fr_core_news_md-3.7.0-py3-none-any.whl
+
+# Installe le modèle spaCy français après l'installation
+--extra-index-url https://pypi.org/simple
+-f https://raw.githubusercontent.com/explosion/spacy-models/master/compatibility.json
