@@ -1,0 +1,7 @@
+streamlit
+spacy
+stanza
+transformers
+torch
+pandas
+matplotlib
