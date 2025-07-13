@@ -11,7 +11,12 @@ import spacy.cli
 
 @st.cache_resource
 def load_spacy_model():
-    return spacy.load("fr_core_news_md")
+    try:
+        return spacy.load("fr_core_news_md")
+    except OSError:
+        from spacy.cli import download
+        download("fr_core_news_md")
+        return spacy.load("fr_core_news_md")
 
 @st.cache_resource
 def load_stanza_model():
